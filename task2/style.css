@@ -50,8 +50,9 @@ p {
     font-size: large;
 }
 
-h1 {
+.container2 h1{
     margin: 0;
+    font-size: 44px;
 }
 
 .container3 {
