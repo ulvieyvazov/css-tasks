@@ -1,0 +1,113 @@
+@font-face {
+    font-family: TexnoRegular;
+    src: url("./Teko/Teko-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    height: 60px;
+    gap: 850px;
+
+}
+
+span {
+    margin: 4px;
+}
+
+.transition {
+    margin: 25px -65px;
+}
+
+.title h2 {
+    margin: -35px 100px;
+}
+
+.bcground {
+    background-image: url("./photo.1.jpg");
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    position: relative;
+}
+
+.img150x {
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    color: white;
+}
+
+.img150x p {
+    font-size: large;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.main {
+    width: 100%;
+    height: 300px;
+}
+
+.box {
+    width: 40%;
+    height: 200px;
+    margin: 100px 350px;
+}
+
+.single {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+.universe {
+    font-family: TexnoRegular;
+    font-size: 24px;
+}
+
+.bcground2 {
+    background-image: url("./photo.2.jpg");
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.the-background {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+.people {
+    font-family: TexnoRegular;
+    font-size: 24px;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: large;
+    background-color: #343a40;
+}
+
+.footer p {
+    padding: 57px 500px;
+}
+
+.house {
+    margin: 7px 11px;
+    font-size: 42px;
+    display: inline-block;
+}
